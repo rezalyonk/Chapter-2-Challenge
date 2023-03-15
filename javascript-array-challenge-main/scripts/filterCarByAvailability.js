@@ -6,13 +6,12 @@ function filterCarByAvailability(cars) {
   const result = [];
 
   // Tulis code-mu disini
-   // Lakukan perulangan untuk setiap mobil pada input
-   for (const car of cars) {
-    // Jika mobil tersedia, tambahkan ke dalam hasil
+  for (const car of cars) {
     if (car.available) {
       result.push(car);
     }
   }
+  
   // Rubah code ini dengan array hasil filter berdasarkan availablity
   return result;
 }
