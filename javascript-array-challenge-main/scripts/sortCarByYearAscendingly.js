@@ -7,8 +7,9 @@ function sortCarByYearAscendingly(cars) {
   const result = [...cars];
 
   // Tulis code-mu disini
-  // Fungsi komparator untuk sorting secara ascending berdasarkan tahun (year)
-  result.sort((a, b) => a.year - b.year);
+  result.sort((carA, carB) => {
+    return carA.year - carB.year;
+  });
 
   // Rubah code ini dengan array hasil sorting secara ascending
   return result;
