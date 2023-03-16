@@ -1,4 +1,4 @@
-function sortCarByYearAscendingly(cars) {
+function sortCarByYearDescendingly(cars) {
   // Sangat dianjurkan untuk console.log semua hal hehe
   console.log(cars);
 
@@ -7,11 +7,7 @@ function sortCarByYearAscendingly(cars) {
   const result = [...cars];
 
   // Tulis code-mu disini
-  result.sort(function(a, b) {
-    return b.year - a.year;
-  });
-  console.log(result);
 
-  // Rubah code ini dengan array hasil sorting secara ascending
+  // Rubah code ini dengan array hasil sorting secara descending
   return result;
 }
