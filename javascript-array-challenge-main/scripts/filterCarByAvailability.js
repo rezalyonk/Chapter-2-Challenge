@@ -9,7 +9,8 @@ function filterCarByAvailability(cars) {
       result.push(cars[i]);
     }
   }
-
   console.log(result);
+  console.table(result);
+  
   return result;
 }
