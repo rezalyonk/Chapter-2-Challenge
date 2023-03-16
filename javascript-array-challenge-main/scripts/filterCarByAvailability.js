@@ -1,5 +1,4 @@
 function filterCarByAvailability(cars) {
-
   // Sangat dianjurkan untuk console.log semua hal hehe
   console.log(cars);
 
