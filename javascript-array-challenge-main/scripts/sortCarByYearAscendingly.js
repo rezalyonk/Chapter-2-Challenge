@@ -9,6 +9,7 @@ function sortCarByYearAscendingly(cars) {
   // Tulis code-mu disini
   // Fungsi sorting secara ascending berdasarkan tahun (year)
   result.sort((a, b) => a.year - b.year);
+  console.log(result);
 
   // Rubah code ini dengan array hasil sorting secara ascending
   return result;
